@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in_title">Sign In</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="tv_email">Email</string>
+
+
+    <!-- we start from here -->
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">In Shoe Store you can add a new shoes to your inventory by click on add button and put your details and click save.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="sign_up_description_text">Enter your email id and password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="logout_menu">Logout</string>
+    <string name="next">Next</string>
+    <string name="next_button">Next</string>
+    <string name="welcome_text_button">Let\'s Start</string>
+    <string name="login_btn_text">Log In</string>
+    <string name="login_btn_create">Create</string>
+    <string name="login_et_hint">********</string>
+    <string name="login_tv_password">Password</string>
+    <string name="text_or">- OR -</string>
+    <string name="edit_text_hint_size">Size</string>
+    <string name="edit_text_hint_company">Company</string>
+    <string name="edit_text_hint_description">Description</string>
+    <string name="save_btn">save</string>
+    <string name="description">Description:</string>
+    <string name="shoes_company">Shoes Company:</string>
+    <string name="shoes_size">Shoes Size:</string>
+    <string name="shoes_name">Shoes Name:</string>
+    <string name="cancel_btn">cancel</string>
+    <string name="add_fab_button">add fab button</string>
+    <string name="item_list_tv_shoes_name">Shoes name:</string>
+    <string name="item_list_text_description">Description:</string>
+    <string name="item_list_text_company">Company:</string>
+    <string name="item_list_text_shoes_size">Shoes size:</string>
 </resources>
