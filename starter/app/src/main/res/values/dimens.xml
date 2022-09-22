@@ -175,4 +175,9 @@
     <dimen name="fab_button_margin">10dp</dimen>
     <dimen name="card_view_margin_top_start_end">6dp</dimen>
     <dimen name="item_list_tv_text_size">18sp</dimen>
+    <dimen name="margin_top_tv">40dp</dimen>
+    <dimen name="tv_padding">10dp</dimen>
+    <dimen name="welcome_tv_text_size">30sp</dimen>
+    <dimen name="tv_margin_top_lets">460dp</dimen>
+    <dimen name="button_margin_top">500dp</dimen>
 </resources>

@@ -5,6 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        
+        <import type="com.udacity.shoestore.converter.DoubleConverter"/>
+        
         <variable
             name="shoeListViewModel"
             type="com.udacity.shoestore.shoe_list.ShoeListViewModel" />
@@ -60,15 +63,13 @@
             >
 
 
-            <EditText
+            <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:hint="@string/edit_text_hint_size"
-                android:importantForAutofill="no"
-                android:inputType="numberDecimal"
-                android:text="@{Double.toString(shoeListViewModel.shoe.size)}" />
+                android:inputType="text"
+                android:text="@={shoeListViewModel.shoe.size}" />
 
 
         </com.google.android.material.textfield.TextInputLayout>

@@ -42,4 +42,7 @@
     <string name="item_list_text_description">Description:</string>
     <string name="item_list_text_company">Company:</string>
     <string name="item_list_text_shoes_size">Shoes size:</string>
+    <string name="welcome_to_shoes_store">Welcome to Shoes Store</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="next_button_description">next button</string>
 </resources>

@@ -1,13 +1,10 @@
 package com.udacity.shoestore.shoe_list
 
 import android.content.Context
-import android.os.Parcel
-import android.os.Parcelable
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import androidx.databinding.DataBindingUtil
-import com.bumptech.glide.Glide
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.ShoeItemBinding
 import com.udacity.shoestore.models.Shoe
@@ -26,7 +23,7 @@ class ItemLayout : LinearLayout{
 
             tvName.text = shoe.name
             tvCompany.text = shoe.company
-            tvSize.text = shoe.size.toString()
+            tvSize.text = shoe.size
             ivDescription.text = shoe.description
 
         }

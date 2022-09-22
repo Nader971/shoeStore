@@ -7,8 +7,10 @@
 
     <data>
 
+        <import type="com.udacity.shoestore.converter.DoubleConverter"/>
+
         <variable
-            name="shoe_item"
+            name="shoe"
             type="com.udacity.shoestore.models.Shoe" />
 
     </data>
@@ -73,11 +75,10 @@
 
             <TextView
                 android:id="@+id/tv_size"
+                style="@style/text_view_item_list_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Shoes size"
-                style="@style/text_view_item_list_style"
-                />
+                tools:text="@string/item_list_text_shoes_size" />
         </LinearLayout>
 
 

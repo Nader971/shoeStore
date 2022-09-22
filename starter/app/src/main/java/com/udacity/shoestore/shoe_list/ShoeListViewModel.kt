@@ -1,36 +1,42 @@
 package com.udacity.shoestore.shoe_list
 
 
-import androidx.databinding.Bindable
-import androidx.databinding.Observable
-import androidx.databinding.PropertyChangeRegistry
+
+import androidx.databinding.*
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.udacity.shoestore.BR
 import com.udacity.shoestore.models.Shoe
 
-class ShoeListViewModel : ViewModel(), Observable {
+
+
+class ShoeListViewModel : ViewModel(), Observable  {
 
     private val propChangeReg = PropertyChangeRegistry()
 
     private val shoes = MutableLiveData<MutableList<Shoe>>(mutableListOf())
 
 
+
     @Bindable
     var shoe = Shoe()
         set(value) {
             if(value != field) {
+
                 field = value
+
                 propChangeReg.notifyChange(this, BR.shoe)
             }
         }
 
-
-
     fun getShoeLiveData(): LiveData<MutableList<Shoe>> = shoes
 
+
+
+
     fun addShoes(item: Shoe?) {
+
         item?.let {
             shoes.value?.add(item)
         }
